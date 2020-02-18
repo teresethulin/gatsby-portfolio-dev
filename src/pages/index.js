@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout, SEO } from 'components/common';
 import { Intro, Skills, Contact, Projects } from 'components/landing';
 
-export default () => (
+const indexPage = () => (
   <Layout>
     <SEO />
     <Intro />
@@ -11,3 +11,5 @@ export default () => (
     <Contact />
   </Layout>
 );
+
+export default indexPage;

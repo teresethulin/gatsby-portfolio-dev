@@ -1,26 +1,25 @@
-[
-  {
+[{
     "id": 0,
-    "name": "Telegram",
-    "link": "https://t.me/smakosh",
-    "icon": "/icons/telegram.svg"
+    "name": "teresethulin.com",
+    "link": "https://teresethulin.com",
+    "icon": "/icons/burger-icon.svg"
   },
   {
     "id": 1,
     "name": "Github",
-    "link": "https://github.com/smakosh",
+    "link": "https://github.com/teresethulin",
     "icon": "/icons/github.svg"
   },
   {
     "id": 2,
-    "name": "StackOverflow",
-    "link": "https://stackoverflow.com/users/story/7396786",
-    "icon": "/icons/stackoverflow.svg"
+    "name": "Codepen",
+    "link": "https://codepen.io/teresethulin",
+    "icon": "/icons/codepen.svg"
   },
   {
     "id": 3,
     "name": "Twitter",
-    "link": "https://twitter.com/smakosh",
+    "link": "https://twitter.com/teresethulin",
     "icon": "/icons/twitter.svg"
   }
 ]
