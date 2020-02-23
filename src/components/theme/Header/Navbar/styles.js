@@ -7,6 +7,30 @@ export const Wrapper = styled.div`
   justify-content: space-between;
 
   a {
-    color: #212121;
+    color: #2e2eff;
+  }
+`;
+
+export const LogoWrapper = styled.div`
+  a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 10vw;
+    align-self: center;
+    margin-bottom: 1vh;
+
+    @media (min-width: 600px) {
+      max-width: 8vw;
+    }
+
+    @media (min-width: 980px) {
+      width: 5vw;
+    }
   }
 `;

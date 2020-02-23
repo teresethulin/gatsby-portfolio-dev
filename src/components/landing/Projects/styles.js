@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   padding: 2rem 0;
+  color: #2e2eff;
 `;
 
 export const Grid = styled.div`
@@ -27,11 +28,12 @@ export const Item = styled.div`
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.11);
 
   h4 {
-    color: #212121;
+    color: #2e2eff;
   }
 
   p {
-    color: #707070;
+    color: #2e2eff;
+    font-size: 11pt;
   }
 `;
 
@@ -54,7 +56,7 @@ export const Stats = styled.div`
     }
 
     span {
-      color: #000;
+      color: #2e2eff;
       margin-left: 0.5rem;
     }
   }

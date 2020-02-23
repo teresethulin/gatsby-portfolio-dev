@@ -1,10 +1,7 @@
 import styled from 'styled-components';
-import overlayIllustration from 'assets/illustrations/overlay.svg';
-import gradient from 'components/common/Gradient/index';
 
 export const Wrapper = styled.div`
   padding-bottom: 4rem;
-  background-image: url(${gradient});
   background-size: contain;
   background-position: right top;
   background-repeat: no-repeat;
@@ -32,7 +29,7 @@ export const Details = styled.div`
   h1 {
     margin-bottom: 2rem;
     font-size: 36pt;
-    color: #212121;
+    color: #2e2eff;
 
     @media (max-width: 680px) {
       font-size: 30pt;
@@ -43,7 +40,7 @@ export const Details = styled.div`
     margin-bottom: 2.5rem;
     font-size: 32pt;
     font-weight: normal;
-    color: #707070;
+    color: #2e2eff;
 
     @media (max-width: 680px) {
       font-size: 26pt;

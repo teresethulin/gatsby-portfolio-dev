@@ -13,7 +13,7 @@ export const Button = styled.button`
   -ms-user-select: none;
   user-select: none;
   color: #fff;
-  background: #6c63ff;
+  background: #2e2eff;
 
   &:focus {
     outline: none;

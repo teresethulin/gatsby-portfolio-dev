@@ -48,19 +48,22 @@ export const Bar = styled.div`
     sidebar &&
     `
 		transform: translateY(8px) rotate(-135deg);
-	`}
-
-	${({ mid, sidebar }) =>
-    mid &&
-    sidebar &&
-    `
-			transform: scale(0);
-	`}
-
-	${({ bottom, sidebar }) =>
-    bottom &&
-    sidebar &&
-    `
+		background-color: #fff;
+		`}
+		
+		${({ mid, sidebar }) =>
+      mid &&
+      sidebar &&
+      `
+		background-color: #fff;
+		transform: scale(0);
+		`}
+		
+		${({ bottom, sidebar }) =>
+      bottom &&
+      sidebar &&
+      `
+		background-color: #fff;
 			transform: translateY(-6px) rotate(-45deg);
 	`}
 `;

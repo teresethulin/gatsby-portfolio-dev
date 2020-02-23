@@ -1,11 +1,13 @@
 import styled from 'styled-components';
-import detailsIllustration from 'assets/illustrations/details.svg';
 
 export const Wrapper = styled.div`
-  background-image: url(${detailsIllustration});
   background-size: contain;
   background-position: left top;
   background-repeat: no-repeat;
+
+  @media (min-width: 960px) {
+    height: 100vh;
+  }
 `;
 
 export const SkillsWrapper = styled.div`
@@ -31,27 +33,38 @@ export const Details = styled.div`
   h1 {
     margin-bottom: 2rem;
     font-size: 26pt;
-    color: #212121;
+    color: #2e2eff;
   }
 
   p {
     margin-bottom: 2.5rem;
-    font-size: 20pt;
+    font-size: 18pt;
     font-weight: normal;
     line-height: 1.3;
-    color: #707070;
+    color: #2e2eff;
   }
 `;
 
 export const Thumbnail = styled.div`
   flex: 1;
-
-  @media (max-width: 960px) {
-    width: 100%;
-    margin-bottom: 2rem;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   img {
+    width: 25vw;
+    margin-right: 2vw;
+  }
+
+  @media (max-width: 960px) {
+    margin-bottom: 2rem;
     width: 100%;
+
+    img {
+      width: 70%;
+      height: auto;
+      margin: 0;
+      padding: 0;
+    }
   }
 `;

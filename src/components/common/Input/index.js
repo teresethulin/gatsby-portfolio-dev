@@ -16,6 +16,6 @@ export const Input = styled.input`
 	`}
 
   &::placeholder {
-    color: #a7a7a7;
+    color: #2e2eff;
   }
 `;
