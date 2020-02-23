@@ -7,6 +7,9 @@ export const Wrapper = styled.div`
 
   @media (min-width: 960px) {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 `;
 
@@ -28,6 +31,14 @@ export const Details = styled.div`
   @media (max-width: 960px) {
     padding-left: unset;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      text-align: center;
+    }
   }
 
   h1 {
@@ -37,7 +48,7 @@ export const Details = styled.div`
   }
 
   p {
-    margin-bottom: 2.5rem;
+    margin-bottom: 4rem;
     font-size: 18pt;
     font-weight: normal;
     line-height: 1.3;
@@ -63,8 +74,7 @@ export const Thumbnail = styled.div`
     img {
       width: 70%;
       height: auto;
-      margin: 0;
-      padding: 0;
+      margin-bottom: 5vh;
     }
   }
 `;
