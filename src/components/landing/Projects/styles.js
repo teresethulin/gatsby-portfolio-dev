@@ -3,6 +3,13 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   padding: 2rem 0;
   color: #2e2eff;
+
+  @media (max-width: 960px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const Grid = styled.div`

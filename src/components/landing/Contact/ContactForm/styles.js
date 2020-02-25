@@ -10,6 +10,13 @@ export const Center = styled.div`
   h4 {
     font-weight: normal;
   }
+
+  @media (max-width: 960px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const InputField = styled.div`

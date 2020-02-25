@@ -9,7 +9,6 @@ export const Wrapper = styled.div`
   width: 0;
   opacity: 0;
   height: 100%;
-  background-color: #2e2eff;
   font-size: 20pt;
   display: flex;
   flex-direction: column;
@@ -24,6 +23,7 @@ export const Wrapper = styled.div`
   ${({ active }) =>
     active &&
     `
+      background-color: #2e2eff;
 			width: 20%;
 			right: 0px;
 			opacity: 1;
