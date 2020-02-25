@@ -20,6 +20,7 @@ export const IntroWrapper = styled.div`
 
 export const Details = styled.div`
   flex: 1;
+  color: #2e2eff;
 
   @media (max-width: 960px) {
     width: 100%;
@@ -29,7 +30,6 @@ export const Details = styled.div`
   h1 {
     margin-bottom: 2rem;
     font-size: 36pt;
-    color: #2e2eff;
 
     @media (max-width: 680px) {
       font-size: 30pt;
@@ -40,7 +40,6 @@ export const Details = styled.div`
     margin-bottom: 2.5rem;
     font-size: 32pt;
     font-weight: normal;
-    color: #2e2eff;
 
     @media (max-width: 680px) {
       font-size: 26pt;

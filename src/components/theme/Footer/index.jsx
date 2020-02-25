@@ -8,12 +8,12 @@ export const Footer = () => (
     <Flex as={Container}>
       <Details>
         <h2>Terese Thulin</h2>
-        <span>
-          © All rights reserved | {new Date().getFullYear()} | Starter made by{' '}
-          <a href="https://smakosh.com/?ref=portfolio-dev" rel="noopener noreferrer" target="_blank">
-            Smakosh
+        <p>
+          <a href="https://www.teresethulin.com" target="_blank" rel="noopener noreferrer">
+            Design portfolio: teresethulin.com
           </a>
-        </span>
+        </p>
+        <span>© All rights reserved | {new Date().getFullYear()}</span>
       </Details>
       <Links>
         {social.map(({ id, name, link, icon }) => (

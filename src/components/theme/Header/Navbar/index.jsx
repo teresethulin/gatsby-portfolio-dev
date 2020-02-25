@@ -9,7 +9,8 @@ const Navbar = () => (
   <Wrapper as={Container}>
     <LogoWrapper>
       <Link to="/">
-        terese thulin <img src={BigBurger} alt="I’m Terese and I’m a Web Developer & Designer" />
+        <h4>terese thulin </h4>
+        <img src={BigBurger} alt="I’m Terese and I’m a Web Developer & Designer" />
       </Link>
     </LogoWrapper>
     <NavbarLinks desktop />

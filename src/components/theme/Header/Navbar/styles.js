@@ -21,16 +21,31 @@ export const LogoWrapper = styled.div`
   }
 
   img {
-    width: 10vw;
-    align-self: center;
+    width: 8vw;
+    margin-left: 1vw;
     margin-bottom: 1vh;
+    align-self: center;
+  }
 
-    @media (min-width: 600px) {
-      max-width: 8vw;
+  h4 {
+    margin: 0;
+  }
+
+  @media (min-width: 600px) {
+    img {
+      max-width: 6vw;
+    }
+    h4 {
+      font-size: 1rem;
     }
 
     @media (min-width: 980px) {
-      width: 5vw;
+      img {
+        width: 4vw;
+      }
+      h4 {
+        font-size: 1.4rem;
+      }
     }
   }
 `;

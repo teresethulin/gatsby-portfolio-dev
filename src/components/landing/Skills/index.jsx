@@ -14,7 +14,7 @@ export const Skills = () => (
         <h1>About me</h1>
         <p>BFA Designer with experience in print, digital design, and web development.</p>
         <Button as={AnchorLink} href="#contact">
-          Contact me
+          Ask me something
         </Button>
       </Details>
     </SkillsWrapper>

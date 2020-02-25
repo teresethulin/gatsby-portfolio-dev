@@ -4,7 +4,7 @@ module.exports = {
   author: 'Terese Thulin',
   url: 'https://teresethulin.com',
   legalName: 'Terese Thulin',
-  defaultDescription: 'I’m Terese and I’m a Web Developer & Designer',
+  defaultDescription: 'I’m Terese Thulin and I’m a Designer & Web Developer',
   socialLinks: {
     twitter: 'http://www.twitter.com/teresethulin',
     github: 'https://github.com/teresethulin',
@@ -28,5 +28,5 @@ module.exports = {
     phone: 'phone number',
   },
   foundingDate: '2018',
-  recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN',
+  recaptcha_key: '6LdnHdwUAAAAAGO18NlVNDhzx-bmGi9ZXjjivo6f',
 };
