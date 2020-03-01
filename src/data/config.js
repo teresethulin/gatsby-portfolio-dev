@@ -11,7 +11,7 @@ module.exports = {
     linkedin: 'https://www.linkedin.com/in/teresethulin/',
     instagram: 'https://instagram.com/teresethulin',
   },
-  googleAnalyticsID: 'UA-88875900-4',
+  googleAnalyticsID: '',
   themeColor: '##2e2eff',
   backgroundColor: '##2e2eff',
   social: {
