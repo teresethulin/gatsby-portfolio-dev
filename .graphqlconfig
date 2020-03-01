@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "gatsby-dev-portfolio": {
+      "schemaPath": "schema.graphql"
+    }
+  }
+}
