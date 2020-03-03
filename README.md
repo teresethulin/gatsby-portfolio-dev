@@ -55,7 +55,7 @@ Please create a new file `.env.development` and put this env variable with your 
 > If you're building locally, you will have to create a new file `.env.production` and put the same env variable
 
 ```bash
-GITHUB_TOKEN=xxxxxxxxxx
+GATSBY_GITHUB_TOKEN=xxxxxxxxxx
 ```
 
 > [Get your GitHub access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line#creating-a-token)

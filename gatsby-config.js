@@ -4,7 +4,7 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-console.log(process.env.GITHUB_TOKEN);
+console.log(process.env.GATSBY_GITHUB_TOKEN);
 
 module.exports = {
   siteMetadata: {
@@ -24,7 +24,7 @@ module.exports = {
         fieldName: 'github',
         url: 'https://api.github.com/graphql',
         headers: {
-          Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+          Authorization: `Bearer ${process.env.GATSBY_GITHUB_TOKEN}`,
         },
         fetchOptions: {},
       },
