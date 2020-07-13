@@ -4,7 +4,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/57c04515-1d1b-46e8-b531-213fabca9cc4/deploy-status)](https://app.netlify.com/sites/gatsby-portfolio-dev/deploys)
 
-Site is up and running at [git-teresethulin.netlify.com/](https://git-teresethulin.netlify.com/)
+Site is up and running at [https://teresethulin.netlify.app](https://teresethulin.netlify.app)
 
 
 ## Theme
